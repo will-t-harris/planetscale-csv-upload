@@ -11,5 +11,7 @@ fn main() -> Result<(), csv::Error> {
         println!("{:?}", record);
     }
 
+    dbg!(PokemonId::new());
+
     Ok(())
 }
